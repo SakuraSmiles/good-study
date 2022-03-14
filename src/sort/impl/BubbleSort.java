@@ -1,4 +1,8 @@
-package sort;
+package sort.impl;
+
+import sort.ISort;
+
+import java.util.Arrays;
 
 /**
  * 冒泡排序
@@ -18,5 +22,6 @@ public class BubbleSort implements ISort {
                 }
             }
         }
+
     }
 }

@@ -1,4 +1,8 @@
-package sort;
+package sort.impl;
+
+import sort.ISort;
+
+import java.util.Arrays;
 
 /**
  * 选择排序
@@ -20,5 +24,6 @@ public class SelectionSort implements ISort {
             nums[i] = nums[minIndex];
             nums[minIndex] = temp;
         }
+        System.out.println("选择排序：" + Arrays.toString(nums));
     }
 }
